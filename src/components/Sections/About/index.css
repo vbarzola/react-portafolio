@@ -1,0 +1,6 @@
+#skill-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Ajusta este valor según el tamaño deseado de las columnas */
+  gap: 20px; /* Espaciado entre los elementos */
+  justify-items: center;
+}

@@ -1,0 +1,15 @@
+.menu-option {
+  cursor: pointer;
+  display: inline-block; /* Ensures the span only takes up as much width as its content */
+}
+
+.menu-item-container {
+  display: inline-block; /* This will make the container only as wide as its contents */
+}
+
+.line {
+  width: 100%; /* Inherits the width of the menu-option if menu-option is its direct parent */
+  height: 3px;
+  background-color: rgb(var(--accent-color));
+  margin-top: 4px;
+}

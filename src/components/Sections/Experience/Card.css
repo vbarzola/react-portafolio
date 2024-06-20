@@ -1,0 +1,8 @@
+.card-experience:hover {
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(248, 225, 255, 0.47);
+  cursor: pointer;
+}
