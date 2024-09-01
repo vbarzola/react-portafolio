@@ -1,6 +1,16 @@
-#skill-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr); /* Ajusta este valor según el tamaño deseado de las columnas */
+
+.skill-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr); /* Ajusta este valor según el tamaño deseado de las columnas */
   gap: 20px; /* Espaciado entre los elementos */
   justify-items: center;
+  align-items: center;
+}
+
+.slick-next:before, .slick-prev:before{
+  color: rgb(var(--accent-color)) !important;
+}
+
+.slick-dots li.slick-active button:before{
+  color: rgb(var(--accent-color)) !important;
 }

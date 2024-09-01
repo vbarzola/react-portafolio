@@ -5,58 +5,65 @@
       "name": "HTML"
     },
     {
-      "img": "html5.svg",
-      "name": "HTML"
+      "img": "css3.svg",
+      "name": "CSS"
     },
     {
-      "img": "html5.svg",
-      "name": "HTML"
+      "img": "javascript.svg",
+      "name": "JavaScript"
     },
     {
-      "img": "html5.svg",
-      "name": "HTML"
+      "img": "react.svg",
+      "name": "React"
     },
     {
-      "img": "html5.svg",
-      "name": "HTML"
+      "img": "nodejs.svg",
+      "name": "Node.js"
     },
     {
-      "img": "html5.svg",
-      "name": "HTML"
+      "img": "figma.svg",
+      "name": "Figma"
     },
     {
-      "img": "html5.svg",
-      "name": "HTML"
+      "img": "angular.svg",
+      "name": "Angular"
     },
     {
-      "img": "html5.svg",
-      "name": "HTML"
+      "img": "typescript.svg",
+      "name": "TypeScript"
     },
     {
-      "img": "html5.svg",
-      "name": "HTML"
+      "img": "aws.svg",
+      "name": "AWS"
     },
     {
-      "img": "html5.svg",
-      "name": "HTML"
-    },  {
-      "img": "html5.svg",
-      "name": "HTML"
+      "img": "vuejs.svg",
+      "name": "Vue"
     },
     {
-      "img": "html5.svg",
-      "name": "HTML"
+      "img": "aws.svg",
+      "name": "AWS"
     },
     {
-      "img": "html5.svg",
-      "name": "HTML"
+      "img": "vuejs.svg",
+      "name": "Vue"
     },
     {
-      "img": "html5.svg",
-      "name": "HTML"
-    },  {
-      "img": "html5.svg",
-      "name": "HTML"
+      "img": "aws.svg",
+      "name": "AWS"
+    },
+    {
+      "img": "vuejs.svg",
+      "name": "Vue"
+    },
+    {
+      "img": "aws.svg",
+      "name": "AWS"
+    },
+    {
+      "img": "vuejs.svg",
+      "name": "Vue"
     }
+
   ]
 }

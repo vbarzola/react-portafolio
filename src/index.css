@@ -5,7 +5,7 @@
 
 @layer base {
   :root {
-    --primary-color: 244, 186, 185;
+    --primary-color: 253 24% 15%;
     --surface-color: 248, 225, 255;
     --text-color: 50, 28, 105;
     --accent-color: 180, 130, 211;
@@ -14,6 +14,16 @@
     --primary-color: 239, 152, 167;
     --surface-color: 128, 112, 148;
     --text-color: 255, 255, 255;
-    --accent-color: 255, 255, 255;
+    --accent-color: 239, 152, 167;
   }
+}
+
+
+i {
+  font-size: 24px;
+}
+
+.text-shadow-purple {
+  color: rgb(var(--primary-color));
+  text-shadow: -1px -1px 8px rgba(202, 128, 250, .811), 2px 2px 8px rgba(148, 49, 215, .66);
 }

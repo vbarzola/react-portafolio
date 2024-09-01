@@ -1,18 +1,33 @@
 import React from 'react';
+import Card from '../../shared/Card';
 
 const Projects = ({ id }) => {
+
+	const projects = [
+		{
+			title: 'Project 1',
+			img: 'https://alexvelez.herokuapp.com/assets/img/projects/MusicGenerator_preview.png',
+			position: 'Full-time',
+			description: 'Designed and developed features for a web application. Managed a team of 3 developers. Conducted code reviews and mentored junior developers.',
+			tags: ['React', 'TypeScript', 'Node.js', 'MySQL'],
+		},
+		{
+			title: 'Project 2',
+			position: 'Full-time',
+			description: 'Developed a web application using React and Node.js. Implemented a RESTful API. Conducted code reviews and pair programming sessions.',
+			tags: ['React', 'Node.js', 'MongoDB', 'Express'],
+		}
+	];
+
   return (
     <div className='text-skin-base' id={id}>
-      <h1 className='font-bold'>Projects</h1>
       <span className="text-skin-base">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-				eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-				veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-				commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				{
+					 // for each project a card
+					 projects.map((project, index) => (
+						<Card key={index} {...project} />
+					))
+				}
 			</span>
     </div>
   );

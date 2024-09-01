@@ -10,6 +10,6 @@
 .line {
   width: 100%; /* Inherits the width of the menu-option if menu-option is its direct parent */
   height: 3px;
-  background-color: rgb(var(--accent-color));
+  background-color: rgb(var(--text-color));
   margin-top: 4px;
 }

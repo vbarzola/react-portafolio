@@ -6,7 +6,7 @@ import { useLocation} from "react-router-dom";
 
 import "./index.css";
 
-const Menu = ({ selected, setSelected, className }) => {
+const Menu = ({ selected, setSelected, className= '' }) => {
 
   const location = useLocation();
 
@@ -29,15 +29,15 @@ const Menu = ({ selected, setSelected, className }) => {
   }, [location, setSelected]);  
 
 	return (
-			<div className={`justify-center${className}`}>
+			<div className={`justify-center ${className} mt-4`}>
 				{SECTIONS.map((section, index) => (
-					<div key={index} className="px-4 py-2">
+					<div key={index} className="py-2">
 						<div className="menu-item-container">
 							<Link
 								to={`#${section.id}`}
 								className={`menu-option ${
 									selected === section.id
-										? "text-skin-accent font-bold"
+										? "text-skin-base font-bold"
 										: "text-skin-base"
 								}`}>
 								{section.title}

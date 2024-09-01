@@ -21,16 +21,16 @@ export const SECTIONS = [
 ];
 
 export const PALLETS = [
-	{
+  {
 		color: "rgba(239, 152, 167, 1)",
-		className: "default",
+		className: "dark",
 	},
   {
-		color: "rgba(128, 112, 148, 1)",
-		className: "dark",
+		color: "rgba(180, 130, 211, 1)",
+		className: "default",
 	},
 	{
 		color: "rgba(247, 190, 169, 1)",
-		className: "Orange",
+		className: "light",
 	},
 ];

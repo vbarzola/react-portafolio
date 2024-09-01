@@ -23,7 +23,7 @@ const PalletPicker = () => {
 	const { selectPallet, pallet : selectedPallete } = useContext(Context);
 
 	return (
-		<div className="flex mt-4">
+		<div className="flex mt-8">
 			{PALLETS.map(pallet => (
 				<Circle
 					color={pallet.color}
